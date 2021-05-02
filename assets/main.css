@@ -1,0 +1,48 @@
+
+
+body {
+
+    background-color: black;
+    color: wheat;
+    margin:0 auto;
+    text-align:center; 
+    width: auto;
+    font-size: 18px;
+    line-height: 30px;
+   
+}
+
+a {
+
+color: red;
+
+}
+
+
+.title {
+
+   
+
+    font-size: 36px;
+
+
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+  
+   
+
+
+
+
+}
+
+
+
+.sync2 {
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+}
+

@@ -23,6 +23,12 @@ var randomBaslik2 = baslik2[randombaslik2];
 var birincil = new Array("<center> " + randomTarih  + " <br><h1> "  + randomBaslik + randomBaslik2 + " </h1><center/>");
 
 
+//  click to refresh
+
+var refreshPage = document.querySelector(".refresh");
+refreshPage.addEventListener('click', function(){
+    location.reload();
+});
 
 // RANDOM İSMET ÖZEL ŞİİRİ
 
@@ -173,4 +179,7 @@ var randomTamla = tamlama[randomtamlama];
 
 
 //  birincil + PARTS //
-document.write(birincil + randomOz + randomHaykir + "<br>" + randomGir + randomSor + randomVur + "<br>" +  randomYuklem +  "<br>" + randomNolan + " <br> " + randomTamlama1 + randomTamla + "<br>" +"<br>" + randomNerede + randomNerede2 +"<br>"  + randomNeyle + "<br>...<br>" + randomBir + "<br>" + randomTamlama2 + " <br>" + randomGibi  + randomHitap + "");
+
+
+
+document.write(birincil + randomOz + randomHaykir + "<br>" + randomGir + randomSor + randomVur + "<br>" +  randomYuklem +  "<br>" + randomNolan + " <br> " + randomTamlama1 + randomTamla + "<br>" +"<br>" + randomNerede + randomNerede2 +"<br>"  + randomNeyle + "<br>...<br>" + randomBir + "<br>" + randomTamlama2 + " <br>" + randomGibi  + randomHitap );
