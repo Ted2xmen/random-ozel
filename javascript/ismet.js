@@ -1,41 +1,3 @@
-
-
-// tarih
-
-var tarih = new Array("iki bin otuz dokuz  ", "iki bin yetmiş altı " , "iki bin yirmi yedi" , "iki bin yedi yüz " , "iki bin yirmi iki ");
-var randomtarih = Math.floor(Math.random()*tarih.length);
-var randomTarih = tarih[randomtarih];
-
-// başlıklar 
-
-var baslik = new Array("Aynı  ", " Akla Karşı " , "Kötü " , "Kanla Kirlenmiş " , "Evet,  ", "Umrumdadır ",  "Yorgun ", "Geceleyin ", "Sebeb-i ");
-var randombaslik = Math.floor(Math.random()*baslik.length);
-var randomBaslik = baslik[randombaslik];
-
-
-var baslik2 = new Array("Adam ", "Evrak" , "Propaganda" , "Sabah " , "İftira ", "Esenlik", "Yenilgi ", "Şiirler");
-var randombaslik2 = Math.floor(Math.random()*baslik2.length);
-var randomBaslik2 = baslik2[randombaslik2];
-
-
-
-//  başlık ve tarih : birincil
-var birincil = new Array("<center> " + randomTarih  + " <br><h1> "  + randomBaslik + randomBaslik2 + " </h1><center/>");
-
-
-//  click to refresh
-
-var refreshPage = document.querySelector(".refresh");
-refreshPage.addEventListener('click', function(){
-    location.reload();
-});
-
-// RANDOM İSMET ÖZEL ŞİİRİ
-
-
-// PART 1
-
-
 var giris = new Array("Bakın yaklaşıyor yaklaşmakta olan ","Fayrap sevişmek için ", "Duyumsatmadı kendini hiçlik bile " , "Kimseyi çağıramaz kendi adıyla ", " Gençtim ya, ne farkeder deyip geçerdim ", "   ", "Ve kahyalar ", "Köleler! ");
 var randomgiris = Math.floor(Math.random()*giris.length);
 var randomGir = giris[randomgiris];
@@ -71,10 +33,7 @@ var randomnerede = Math.floor(Math.random()*nerede.length);
 var randomNerede = nerede[randomnerede];
 
 
-// PART 4
-var neyle = new Array("kör bir usturayla ", "alçak sesle ", "binlerce binlerce ",  "Ve tarçın kokusu ve yorgunluklarla ", "ağırkanlı bir güneşle " , "ölümle ", "gülünç bir ölümle ",  "cebelleşmek yalanla, kirle, tahvilatlarla ", "kuru bir bilgisayar tıkırtısıyla ",   );
-var randomneyle = Math.floor(Math.random()*neyle.length);
-var randomNeyle = neyle[randomneyle];
+
 
 var nasil1 = new Array("külsüzdü ocak ", "tellal çarşısız ", "ayın kaçıydı ", "engebeli ve dakikti ");
 var randomnasil1 = Math.floor(Math.random()*nasil1.length);
@@ -104,30 +63,27 @@ var randomnerede2 = Math.floor(Math.random()*nerede2.length);
 var randomNerede2 = nerede2[randomnerede2];
 
 
-var haykiris = new Array(" ", "sabırla, kin tutarak! " , "vay ki gençtim " , "  " , " bütün kurnazlığımı siliyor dışardaki yağmur. " , " kimseyi ateşten korumaz kelimelerim ");
-var randomhaykiris = Math.floor(Math.random()*haykiris.length);
-var randomHaykir = haykiris[randomhaykiris];
 
 
-var ozne = new Array("", "" , "o balçıkla beslenen saçlarındaki yangın" , " Onunla ben " , " " , " kimseyi ateşten korumaz kelimelerim ", "Köleler gördüm, karavaşlar ");
+
+var ozne = new Array(" Şehrin insanı ", " Fanya Kaplan " , " o balçıkla beslenen saçlarındaki yangın" , " Onunla ben " , " kanser, begonya, ölüm " , " kimseyi ateşten korumaz kelimelerim ", "Köleler gördüm, karavaşlar " , " kukumav kuşları " , " dinç duygular ");
 var randomozne = Math.floor(Math.random()*ozne.length);
 var randomOz = ozne[randomozne];
 
 // PART 7
 
-var soru = new Array("Neden büyük ırmaklardan bile heyecanlıydı ", " kimin ülkesinden geçsem " , "Uzak nedir? " , " tanıdım Ademoğlu kimin nesiymiş " , " " , "Ama kim? ", "Anılacak günlerim olmadı mı benim? " , " çarpıntısız dakikası olur mu devrimcinin ");
+var soru = new Array(" Neden büyük ırmaklardan bile heyecanlıydı ", " nedir o katı şey " , " kimin ülkesinden geçsem " , " Uzak nedir? " , " sahibim Köroğlu'nun da sahibi değil mi? " , " tanıdım Ademoğlu kimin nesiymiş " , "şehir mi değil mi burası " , " dostları düşünmenin çarpıntısından mı? " , "Ama kim? ", "parti broşürleri yoksa kafiyeler mi " , "Anılacak günlerim olmadı mı benim? " , " ben deli bir fışkın değil miyim? " , " zaten bir tanım değil midir? " , " çarpıntısız dakikası olur mu devrimcinin ");
 var randomsoru = Math.floor(Math.random()*soru.length);
 var randomSor = soru[randomsoru];
 
 
-var tamlama = new Array("uçarı bir gülümseyişle takındığım muşta ", "korsanlardan kaptığım gürlek nara " , " o mavi korularda ve dibektaşlarında " , "Tutuşan bir bıçak" , " ruhum sahte" , "siner kan", " aydınlık, gülümserlik ve sevda ");
+var tamlama = new Array(" uçarı bir gülümseyişle takındığım muşta ", " korsanlardan kaptığım gürlek nara " , " o mavi korularda ve dibektaşlarında " , "Tutuşan bir bıçak" , " ruhum sahte" , " siner kan", " aydınlık, gülümserlik ve sevda ");
 var randomtamlama = Math.floor(Math.random()*tamlama.length);
 var randomTamla = tamlama[randomtamlama];
 
 
 
 
-//  ("Avluya çık" , "Sitem et ", "Nazlan ", "Kendi alevini de getir " , "fly Pan-Am" , "drink Coca-Cola" )
 
 
 //  (" " , "anahtar ve kilit " , "su ve ateş ve toprak" , "kanser, begonya, ölüm ","korku ve cüzzam ", "kan ve su ", "ve rüzgar ",  );
@@ -178,8 +134,11 @@ var randomTamla = tamlama[randomtamlama];
 
 
 
-//  birincil + PARTS //
+// document.write( randomOz + randomHaykir + "<br>" + randomGir + randomSor + randomVur + "<br>" +  randomYuklem +  "<br>" + randomNolan + " <br> " + randomTamlama1 + randomTamla + "<br>" +"<br>" + randomNerede + randomNerede2 +"<br>"  + randomNeyle + "<br>...<br>" + randomBir + "<br>" + randomTamlama2 + " <br>" + randomGibi  + randomHitap );
 
 
 
-document.write(birincil + randomOz + randomHaykir + "<br>" + randomGir + randomSor + randomVur + "<br>" +  randomYuklem +  "<br>" + randomNolan + " <br> " + randomTamlama1 + randomTamla + "<br>" +"<br>" + randomNerede + randomNerede2 +"<br>"  + randomNeyle + "<br>...<br>" + randomBir + "<br>" + randomTamlama2 + " <br>" + randomGibi  + randomHitap );
+
+
+
+
